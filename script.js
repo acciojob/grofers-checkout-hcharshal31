@@ -10,8 +10,7 @@ const getSum = () => {
 	})
   let sumRow = document.createElement("tr");
 	sumRow.innerHTML = `
-		<td id="total">Total</td>
-		<td id="sum">${sum}</td>
+		<td id="ans" style="text-align: center;">${sum}</td>
 	`;
 	let table = document.getElementsByTagName("table")[0];
 	if(table){
